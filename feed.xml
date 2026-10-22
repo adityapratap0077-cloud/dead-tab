@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>DEAD TAB — New Exhibits</title>
+    <link>https://adityapratap0077-cloud.github.io/dead-tab/</link>
+    <description>New exhibits in the museum of the forgotten internet.</description>
+    <language>en</language>
+    <item>
+      <title>Before the Feed: The Internet We Remember</title>
+      <link>https://adityapratap0077-cloud.github.io/dead-tab/exhibits/before-the-feed.html</link>
+      <guid>https://adityapratap0077-cloud.github.io/dead-tab/exhibits/before-the-feed.html</guid>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0530</pubDate>
+      <description>How India experienced the internet before it lived in our pockets. Exhibit DT-001.</description>
+    </item>
+    <item>
+      <title>Cicada 3301: The Puzzle With No Author (Open Case DT-004)</title>
+      <link>https://adityapratap0077-cloud.github.io/dead-tab/exhibits/cicada-3301-open-case.html</link>
+      <guid>https://adityapratap0077-cloud.github.io/dead-tab/exhibits/cicada-3301-open-case.html</guid>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0530</pubDate>
+      <description>Three signed puzzle rounds, an unfinished runic book, and a decade of silence. Facts and claims, kept separate.</description>
+    </item>
+    <item>
+      <title>GeoCities: The City That Vanished</title>
+      <link>https://adityapratap0077-cloud.github.io/dead-tab/exhibits/geocities-the-city-that-vanished.html</link>
+      <guid>https://adityapratap0077-cloud.github.io/dead-tab/exhibits/geocities-the-city-that-vanished.html</guid>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0530</pubDate>
+      <description>The web's first folk city and the great rescue of 2009. Exhibit DT-003.</description>
+    </item>
+    <item>
+      <title>Orkut: India's First Social Network</title>
+      <link>https://adityapratap0077-cloud.github.io/dead-tab/exhibits/orkut-indias-first-social-network.html</link>
+      <guid>https://adityapratap0077-cloud.github.io/dead-tab/exhibits/orkut-indias-first-social-network.html</guid>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0530</pubDate>
+      <description>Scraps, testimonials, and the shutdown of 30 September 2014. Exhibit DT-002.</description>
+    </item>
+  </channel>
+</rss>
