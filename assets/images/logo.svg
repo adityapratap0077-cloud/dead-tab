@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="DEAD TAB logo: a browser tab with a folded corner and a missing-page mark">
+  <rect x="6" y="12" width="52" height="42" rx="6" fill="none" stroke="#A9C7FF" stroke-width="3"/>
+  <path d="M6 24 H46 L58 24" fill="none" stroke="#A9C7FF" stroke-width="3"/>
+  <circle cx="14" cy="18" r="2.2" fill="#A9C7FF"/>
+  <circle cx="23" cy="18" r="2.2" fill="#303541"/>
+  <path d="M46 12 L58 24 H46 Z" fill="#171B24" stroke="#A9C7FF" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M26 34 L38 46 M38 34 L26 46" stroke="#E5B567" stroke-width="3.4" stroke-linecap="round"/>
+</svg>
