@@ -13,6 +13,7 @@
 <link rel="icon" href="../assets/images/logo.svg" type="image/svg+xml">
 <link rel="manifest" href="../manifest.webmanifest">
 <link rel="stylesheet" href="../assets/css/styles.css">
+<link rel="stylesheet" href="../assets/css/experience.css">
 </head>
 <body data-page="archive" data-base="../">
 <header class="site"></header>
@@ -37,7 +38,20 @@
       <figcaption>COVER · Original placeholder illustration. This exhibit reproduces no historical photographs: the rights status of period images could not be verified, so we link to sources instead of copying them.</figcaption>
     </figure>
 
-    <div class="chapter">
+    <div class="dialup" id="dialupBox">
+      <p class="kicker" style="margin-bottom:6px">Interactive artifact · Try it</p>
+      <h3 style="margin-top:0">The Dial-Up Simulator</h3>
+      <p class="small" style="max-width:600px">Before this exhibit describes the sound of going online in 1995, you can hear a reconstruction of it. The tones are synthesised live in your browser, no audio files, modelled on a period modem handshake. The number shown is a reconstruction, because nobody's real number belongs in a museum.</p>
+      <div class="d-screen" id="dialScreen">The line is silent. Press CONNECT when ready.</div>
+      <div class="d-bar"><i id="dialFill"></i></div>
+      <p class="d-rate" id="dialRate">LINE IDLE</p>
+      <p style="margin:10px 0 0;display:flex;gap:10px;flex-wrap:wrap">
+        <button class="btn" id="dialBtn" type="button">CONNECT</button>
+        <button class="btn ghost" id="dialSound" type="button">Sound: on</button>
+      </p>
+    </div>
+
+    <div class="chapter" id="chapter-1">
       <h2>Chapter 1 · The Cybercafé</h2>
       <p>Public internet arrived in India on 15 August 1995, when the state-owned VSNL launched its Gateway Internet Access Service in the four metros. It ran at 9.6 kbit/s, and an individual account cost ₹5,200 for 250 hours. Almost nobody's home had a computer and a phone line to spare for that. So for most Indians, the internet's first address was a shop.</p>
       <p>India's first cybercafé opened in March 1996, at the Leela Hotel in Mumbai, and the format spread everywhere: rows of partitioned desks, a printer that charged by the page, a register at the counter, and time sold in half-hour blocks. You paid for the hour whether the page loaded or not, which taught a generation its first internet skill: knowing exactly what you had come to do. Check mail. Print the admit card. Book the train ticket when IRCTC's online booking arrived in the early 2000s. Download the song before the balance ran out.</p>
@@ -123,5 +137,6 @@
   }).join("");
 })();
 </script>
+<script src="../assets/js/experience.js"></script>
 </body>
 </html>
