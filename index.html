@@ -13,8 +13,14 @@
 <link rel="icon" href="assets/images/logo.svg" type="image/svg+xml">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="stylesheet" href="assets/css/styles.css">
+<link rel="stylesheet" href="assets/css/experience.css">
 </head>
 <body data-page="home">
+<div id="entryOverlay" aria-hidden="true">
+  <img class="e-logo" src="assets/images/logo.svg" alt="">
+  <div class="e-line" id="entryLine">ESTABLISHING CONNECTION TO THE ARCHIVE…</div>
+  <button class="e-skip" id="entrySkip">Enter immediately</button>
+</div>
 <header class="site"></header>
 <main id="main">
   <div class="wrap hero">
@@ -26,7 +32,25 @@
       <a class="btn ghost" href="exhibits/before-the-feed.html">EXPLORE THE LATEST DISCOVERY</a>
     </div>
     <p class="small" style="margin-top:18px">No accounts. No trackers of our own. Every exhibit sourced, or honestly labelled uncertain.</p>
+    <div class="terminal" role="img" aria-label="A terminal window reporting the archive's real contents: four exhibits recovered, one open case unsolved">
+      <div class="t-bar"><i></i><i></i><i></i><span>archive://dead-tab — live shelf report</span></div>
+      <div class="t-body" id="termBody"></div>
+    </div>
   </div>
+
+  <section class="tight">
+    <div class="wrap">
+      <p class="kicker">Drag through internet time</p>
+      <h2>Thirty years, one slider</h2>
+      <div class="scrubber">
+        <div class="era-year" id="eraYear">1995</div>
+        <label class="mono" for="eraRange">SCRUB THE TIMELINE · 1986 → 2016</label>
+        <input type="range" id="eraRange" min="0" max="8" step="1" value="1" aria-describedby="eraFact">
+        <p class="era-fact" id="eraFact"></p>
+        <p class="era-meta"><span id="eraMeta"></span> · <a id="eraLink" href="exhibits/before-the-feed.html">Open the exhibit →</a></p>
+      </div>
+    </div>
+  </section>
 
   <section>
     <div class="wrap">
@@ -57,7 +81,7 @@
       <p class="kicker">The rabbit hole</p>
       <h2>One exhibit is never just one exhibit</h2>
       <p class="lede">Every case in this museum ends with threads to pull: a related site, a neighbouring era, a question nobody has answered. That is deliberate. The early internet was not a feed you scrolled; it was a maze you wandered. We have kept the maze.</p>
-      <p><a href="archive.html">Enter the archive and pick a corridor →</a></p>
+      <p><a href="archive.html">Enter the archive and pick a corridor →</a> &nbsp;or&nbsp; <button class="btn ghost" data-random-thread type="button">PULL A RANDOM THREAD</button></p>
     </div>
   </section>
 
@@ -89,5 +113,6 @@
 <script src="assets/js/data.js"></script>
 <script src="assets/js/navigation.js"></script>
 <script src="assets/js/app.js"></script>
+<script src="assets/js/experience.js"></script>
 </body>
 </html>
