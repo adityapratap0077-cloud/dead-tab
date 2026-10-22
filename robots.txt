@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://adityapratap0077-cloud.github.io/dead-tab/sitemap.xml
