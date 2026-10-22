@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="Placeholder cover: an archive box in the dark">
+  <rect width="800" height="450" fill="#11141B"/>
+  <rect x="240" y="150" width="320" height="170" rx="8" fill="#171B24" stroke="#303541" stroke-width="2"/>
+  <rect x="240" y="150" width="320" height="44" rx="8" fill="#1D222D"/>
+  <rect x="360" y="212" width="80" height="34" rx="4" fill="none" stroke="#A9C7FF" stroke-width="2"/>
+  <text x="400" y="300" font-family="monospace" font-size="17" fill="#A3AAB8" text-anchor="middle">ARTIFACT NOT RECOVERED</text>
+  <text x="400" y="326" font-family="monospace" font-size="12.5" fill="#5C6575" text-anchor="middle">original illustration rights unavailable · placeholder</text>
+</svg>
