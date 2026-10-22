@@ -24,6 +24,7 @@
 <header class="site"></header>
 <main id="main">
   <div class="wrap hero">
+    <canvas id="webglHero" aria-hidden="true"></canvas>
     <p class="kicker">An interactive internet museum · Est. 2026</p>
     <h1>The internet forgets nothing. Except what matters.</h1>
     <p class="lede">Forgotten websites. Lost digital cultures. Stories buried beneath the feed.</p>
@@ -65,6 +66,16 @@
       <p class="kicker">Latest exhibits</p>
       <h2>New in the archive</h2>
       <div class="grid c3" id="latestExhibits"></div>
+    </div>
+  </section>
+
+  <section class="tight">
+    <div class="wrap">
+      <p class="kicker">The archive constellation</p>
+      <h2>The museum, mapped as a sky</h2>
+      <p class="lede">Every exhibit is a star. The threads between them are the museum's real cross-links, the same related exhibits you will find at the bottom of each case file. Drag to turn the sky. Click a star to go there.</p>
+      <canvas id="webglConstellation" aria-label="Interactive 3D map of the museum's exhibits and their connections"></canvas>
+      <p class="small">Star colours follow the evidence scale: green verified, blue documented, amber partially documented. If the sky does not render on your device, the same map in words: <a href="exhibits/before-the-feed.html">DT-001 Before the Feed</a> · <a href="exhibits/orkut-indias-first-social-network.html">DT-002 Orkut</a> · <a href="exhibits/geocities-the-city-that-vanished.html">DT-003 GeoCities</a> · <a href="exhibits/cicada-3301-open-case.html">DT-004 Cicada 3301 (open case)</a>.</p>
     </div>
   </section>
 
@@ -114,5 +125,6 @@
 <script src="assets/js/navigation.js"></script>
 <script src="assets/js/app.js"></script>
 <script src="assets/js/experience.js"></script>
+<script type="module" src="assets/js/three-scenes.js"></script>
 </body>
 </html>
