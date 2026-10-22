@@ -1,0 +1,12 @@
+{
+  "name": "DEAD TAB — Museum of the Forgotten Internet",
+  "short_name": "DEAD TAB",
+  "description": "Forgotten websites. Lost digital cultures. Stories buried beneath the feed.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#08090D",
+  "theme_color": "#08090D",
+  "icons": [
+    { "src": "assets/images/logo.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
