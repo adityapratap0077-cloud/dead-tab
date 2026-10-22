@@ -1,0 +1,216 @@
+[
+ {
+  "category": "indian-internet",
+  "coverAlt": "Illustrated placeholder: an archive box in the dark, labelled artifact not recovered",
+  "coverImage": "assets/images/placeholders/exhibit-cover.svg",
+  "description": "Cybercafés, dial-up tones, scrapbooks and SMS forwards: a five-chapter exhibit on the two decades when going online was a place you visited, not a feed you lived in.",
+  "evidenceStatus": "documented",
+  "featured": true,
+  "id": "DT-001",
+  "imageCredits": "Cover: original DEAD TAB placeholder illustration (no historical image reproduced; rights unverified for period photographs).",
+  "keywords": [
+   "cybercafe",
+   "dial-up",
+   "vsnl",
+   "orkut",
+   "sms forwards",
+   "india",
+   "1995",
+   "jio"
+  ],
+  "location": "India",
+  "period": "1995–2016",
+  "publishedAt": "2026-10-22",
+  "readingTime": 9,
+  "relatedExhibits": [
+   "orkut-indias-first-social-network",
+   "geocities-the-city-that-vanished"
+  ],
+  "slug": "before-the-feed",
+  "sources": [
+   {
+    "accessedAt": "2026-10-22",
+    "publisher": "Wikipedia",
+    "title": "Internet in India — Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Internet_in_India"
+   },
+   {
+    "accessedAt": "2026-10-22",
+    "publisher": "The Indian Express",
+    "title": "How the internet came to India with Archie and Veronica",
+    "url": "https://indianexpress.com/article/opinion/columns/how-the-internet-came-to-india-with-archie-and-veronica-9059763/lite/"
+   },
+   {
+    "accessedAt": "2026-10-22",
+    "publisher": "Onmanorama",
+    "title": "After 25 years, India's Internet story is still playing out its infancy",
+    "url": "https://www.onmanorama.com/news/opinion/2020/08/15/india-internet-story-vsnl-broadband-revolution.html"
+   }
+  ],
+  "statusLabel": "Documented",
+  "subtitle": "How India experienced the internet before it lived in our pockets",
+  "title": "Before the Feed: The Internet We Remember",
+  "updatedAt": "2026-10-22"
+ },
+ {
+  "id": "DT-002",
+  "slug": "orkut-indias-first-social-network",
+  "title": "Orkut: India's First Social Network",
+  "subtitle": "Built in California, colonised by Brazil and India, deleted by a blog post",
+  "category": "lost-websites",
+  "period": "2004–2014",
+  "location": "India · Brazil · Global",
+  "evidenceStatus": "documented",
+  "statusLabel": "Documented",
+  "description": "Scraps, testimonials, and communities: the Google side project that became the social home of two enormous countries, and the instructive story of its 2014 shutdown and read-only afterlife.",
+  "keywords": [
+   "orkut",
+   "google",
+   "social network",
+   "scraps",
+   "testimonials",
+   "brazil",
+   "shutdown"
+  ],
+  "coverImage": "assets/images/placeholders/exhibit-cover.svg",
+  "coverAlt": "Placeholder illustration standing in for Orkut screenshots, which this exhibit does not reproduce",
+  "imageCredits": "Cover: original DEAD TAB placeholder illustration (no Orkut screenshots reproduced; rights unverified).",
+  "readingTime": 7,
+  "publishedAt": "2026-10-22",
+  "updatedAt": "2026-10-22",
+  "featured": false,
+  "relatedExhibits": [
+   "before-the-feed",
+   "geocities-the-city-that-vanished"
+  ],
+  "sources": [
+   {
+    "title": "Orkut — Wikipedia",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Orkut",
+    "accessedAt": "2026-10-22"
+   },
+   {
+    "title": "7 social media sites that failed to become 'Facebook': Orkut",
+    "publisher": "The Economic Times",
+    "url": "https://economictimes.indiatimes.com/tech/internet/7-social-media-sites-that-failed-to-become-a-facebook/orkut/slideshow/58881799.cms",
+    "accessedAt": "2026-10-22"
+   },
+   {
+    "title": "Requiem for Orkut",
+    "publisher": "MarTech",
+    "url": "https://martech.org/orkut-bids-farewell/",
+    "accessedAt": "2026-10-22"
+   },
+   {
+    "title": "Is Orkut coming back? Founder launches campaign to revive the social network",
+    "publisher": "Free Press Journal",
+    "url": "https://www.freepressjournal.in/tech/is-orkut-coming-back-founder-launches-campaign-to-revive-the-social-network-over-255-lakh-already-back-it",
+    "accessedAt": "2026-10-22"
+   }
+  ]
+ },
+ {
+  "id": "DT-003",
+  "slug": "geocities-the-city-that-vanished",
+  "title": "GeoCities: The City That Vanished",
+  "subtitle": "38 million homemade pages, one shutdown notice, and the volunteers who ran into the burning building",
+  "category": "lost-websites",
+  "period": "1994–2009",
+  "location": "United States · Global",
+  "evidenceStatus": "documented",
+  "statusLabel": "Documented",
+  "description": "The web's first folk city: themed neighbourhoods, homesteaders, a $3.6 billion Yahoo sale, and the Archive Team rescue that saved what it could in 2009.",
+  "keywords": [
+   "geocities",
+   "yahoo",
+   "archive team",
+   "homesteaders",
+   "neighbourhoods",
+   "1990s web"
+  ],
+  "coverImage": "assets/images/placeholders/exhibit-cover.svg",
+  "coverAlt": "Placeholder illustration standing in for GeoCities pages, which survive in volunteer archives",
+  "imageCredits": "Cover: original DEAD TAB placeholder illustration (rescued pages belong to their creators; linked, not reproduced).",
+  "readingTime": 7,
+  "publishedAt": "2026-10-22",
+  "updatedAt": "2026-10-22",
+  "featured": false,
+  "relatedExhibits": [
+   "orkut-indias-first-social-network",
+   "before-the-feed"
+  ],
+  "sources": [
+   {
+    "title": "GeoCities — Wikipedia",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/GeoCities",
+    "accessedAt": "2026-10-22"
+   },
+   {
+    "title": "GeoCities lives — sort of",
+    "publisher": "Computerworld",
+    "url": "https://www.computerworld.com/article/1541765/geocities-lives-sort-of.html",
+    "accessedAt": "2026-10-22"
+   },
+   {
+    "title": "The 'Archive Team' Rescues User Content From Doomed Sites",
+    "publisher": "PCWorld",
+    "url": "https://www.pcworld.com/article/253672/the_archive_team_rescues_user_content_from_doomed_sites.html",
+    "accessedAt": "2026-10-22"
+   },
+   {
+    "title": "GeoCities — Archive Team Wiki",
+    "publisher": "Archive Team",
+    "url": "https://wiki.archiveteam.org/index.php?title=GeoCities&oldid=5758",
+    "accessedAt": "2026-10-22"
+   }
+  ]
+ },
+ {
+  "id": "DT-004",
+  "slug": "cicada-3301-open-case",
+  "title": "Cicada 3301: The Puzzle With No Author",
+  "subtitle": "Open case: three signed puzzle rounds, an unfinished runic book, and a decade of silence",
+  "category": "open-cases",
+  "period": "2012–2017",
+  "location": "Global (online)",
+  "evidenceStatus": "partial",
+  "statusLabel": "Partially documented",
+  "description": "DEAD TAB's first open case. Established facts, claims by others, available evidence, disputed points, alternative explanations, and what remains unknown about Cicada 3301, kept carefully separate.",
+  "keywords": [
+   "cicada 3301",
+   "puzzle",
+   "cryptography",
+   "4chan",
+   "liber primus",
+   "open case",
+   "mystery"
+  ],
+  "coverImage": "assets/images/placeholders/exhibit-cover.svg",
+  "coverAlt": "Placeholder illustration for the Cicada 3301 case file; no puzzle artifacts are reproduced",
+  "imageCredits": "Cover: original DEAD TAB placeholder illustration (no puzzle artifacts reproduced).",
+  "readingTime": 8,
+  "publishedAt": "2026-10-22",
+  "updatedAt": "2026-10-22",
+  "featured": false,
+  "relatedExhibits": [
+   "before-the-feed",
+   "geocities-the-city-that-vanished"
+  ],
+  "sources": [
+   {
+    "title": "Cicada 3301 — Wikipedia",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Cicada_3301",
+    "accessedAt": "2026-10-22"
+   },
+   {
+    "title": "Cicada 3301: A Mystery in the Cyber World",
+    "publisher": "Shakeeb",
+    "url": "https://www.shakeeb.in/2020/04/cicada-3301-mystery-in-cyber-world.html",
+    "accessedAt": "2026-10-22"
+   }
+  ]
+ }
+]
