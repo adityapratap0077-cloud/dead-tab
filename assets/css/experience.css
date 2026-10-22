@@ -88,3 +88,10 @@ html{scrollbar-color:#303541 #08090D}
   .terminal .cursor{animation:none}
   #veil{transition:none}
 }
+
+/* 3D layer */
+.hero{position:relative;overflow:hidden}
+#webglHero{position:absolute;inset:0;width:100%;height:100%;opacity:.5;pointer-events:none}
+.hero > *:not(canvas){position:relative;z-index:1}
+#webglConstellation{width:100%;height:380px;display:block;border:1px solid var(--border);border-radius:12px;background:radial-gradient(ellipse at 50% 42%, #101623 0%, #08090D 68%);touch-action:pan-y;margin:8px 0 12px}
+@media (max-width:640px){#webglConstellation{height:300px}}
