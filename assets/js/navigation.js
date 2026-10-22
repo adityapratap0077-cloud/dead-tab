@@ -30,6 +30,18 @@
       btn.setAttribute("aria-expanded", open ? "true" : "false");
     });
   }
+  // Archive console overlay + hint, shared by every page (driven by experience.js).
+  if (!document.getElementById("consoleOverlay")) {
+    var holder = document.createElement("div");
+    holder.innerHTML =
+      '<div id="consoleOverlay" role="dialog" aria-label="Archive console"><div class="c-box">' +
+      '<div class="c-head"><span>ARCHIVE CONSOLE · DEAD TAB</span><button id="consoleClose" aria-label="Close console" style="background:none;border:none;color:var(--text2);cursor:pointer;font:inherit">ESC ✕</button></div>' +
+      '<div class="c-out" id="consoleOut"></div>' +
+      '<div class="c-row"><span class="mono" style="color:var(--accent)">&gt;</span><input id="consoleInput" type="text" placeholder="type a command… (help)" aria-label="Console command" autocomplete="off"></div>' +
+      "</div></div>" +
+      '<button class="console-hint" id="consoleHint" aria-label="Open the archive console">` · ARCHIVE CONSOLE</button>';
+    document.body.appendChild(holder);
+  }
   var footer = document.querySelector("footer.site");
   if (footer) {
     footer.innerHTML =
