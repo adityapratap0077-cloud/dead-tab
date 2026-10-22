@@ -41,3 +41,7 @@
 - Submissions are manual (LinkedIn + downloadable template); there is no form backend at ₹0, and the page says so rather than pretending to save input.
 - No analytics exist; no visitor numbers are claimed anywhere.
 - Historical images are placeholders by rights policy, not by oversight; each is captioned as such.
+
+## Experience layer (added later on 2026-10-22, retested)
+
+An experience pass added: a first-visit entry sequence (once per session, skippable), a hero terminal that types the archive's real shelf report from the live data, a 1986–2016 time scrubber with sourced micro-facts, a random-thread rabbit-hole button, a synthesized dial-up simulator on Exhibit DT-001 (WebAudio, user-triggered, no audio files), scroll reveal, desktop card tilt, reading progress, page-transition veils, and an archive console (press `) with working commands (help, list, open, random, cases, about). The automated suite grew to **74 checks, all passing**, including scrubber state changes, terminal output content, console open/list/unknown-command behaviour, and the simulator's presence. The run caught one portability bug (an unguarded `matchMedia` call that would crash the whole layer in environments without it); fixed with guards and re-verified. Sound synthesis itself cannot be heard in a headless harness; it is verified by code path and user gesture requirements, and labelled here as such.
