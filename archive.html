@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Archive — DEAD TAB</title>
+<meta name="description" content="Search and browse every published DEAD TAB exhibit: lost websites, digital identities, meme archaeology, open cases, Indian internet, and digital artifacts.">
+<meta property="og:title" content="The Archive — DEAD TAB">
+<meta property="og:description" content="Every published exhibit in the museum of the forgotten internet, searchable and filterable.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://adityapratap0077-cloud.github.io/dead-tab/archive.html">
+<link rel="canonical" href="https://adityapratap0077-cloud.github.io/dead-tab/archive.html">
+<link rel="icon" href="assets/images/logo.svg" type="image/svg+xml">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body data-page="archive">
+<header class="site"></header>
+<main id="main">
+  <div class="wrap" style="padding:48px 20px 0">
+    <p class="kicker">The archive</p>
+    <h1>Every exhibit, on the record</h1>
+    <p class="lede">Search by title, subject, category, or era. Filter by how solid the evidence is. If a card is not here, it has not been verified well enough to publish, and that is the point of a museum.</p>
+    <p class="small" id="archiveCount" role="status"></p>
+    <form class="controls" id="archiveControls" role="search" onsubmit="return false">
+      <div>
+        <label class="mono" for="archiveSearch">SEARCH THE ARCHIVE</label>
+        <input id="archiveSearch" type="search" placeholder="Try: cybercafé, Orkut, 1995…" autocomplete="off">
+      </div>
+      <div>
+        <label class="mono" for="filterCategory">CATEGORY</label>
+        <select id="filterCategory"></select>
+      </div>
+      <div>
+        <label class="mono" for="filterStatus">EVIDENCE STATUS</label>
+        <select id="filterStatus">
+          <option value="">All statuses</option>
+          <option value="verified">Verified</option>
+          <option value="documented">Documented</option>
+          <option value="partial">Partially documented</option>
+          <option value="uncertain">Uncertain</option>
+          <option value="recollection">Recollection</option>
+        </select>
+      </div>
+      <div>
+        <label class="mono" for="filterSort">SORT</label>
+        <select id="filterSort">
+          <option value="newest">Newest first</option>
+          <option value="oldest">Oldest first</option>
+          <option value="title">Title A to Z</option>
+        </select>
+      </div>
+    </form>
+    <p><button class="btn ghost" id="clearFilters" type="button">Clear all filters</button></p>
+  </div>
+  <section class="tight">
+    <div class="wrap">
+      <div class="grid c3" id="archiveGrid"></div>
+      <div class="empty" id="archiveEmpty" style="display:none">
+        <h3 style="margin-top:0">Nothing in the archive matches, yet</h3>
+        <p>Try a shorter search, or clear the filters. If the exhibit you expected is genuinely missing, it may still be under research. Museums open wings slowly, on purpose.</p>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="site"></footer>
+<script src="assets/js/data.js"></script>
+<script src="assets/js/navigation.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
