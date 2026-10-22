@@ -1,0 +1,14 @@
+# OS and editors
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+# Temporary files
+*.tmp
+*~
+# Secrets — never commit credentials
+.env
+*.key
+*.pem
+secrets.*
