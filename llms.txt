@@ -1,0 +1,7 @@
+# DEAD TAB
+
+> An interactive museum of the forgotten internet: lost websites, vanished communities, and the stories buried beneath the feed.
+
+DEAD TAB is a digital museum of internet culture. Its exhibits document dead and forgotten corners of the web, including Orkut and GeoCities, with every claim sourced or labelled uncertain. Founded by Aditya Pratap and Nandini Raj.
+
+Built by Aditya Pratap: https://my-portfolio-khaki-gamma-94.vercel.app/about.html

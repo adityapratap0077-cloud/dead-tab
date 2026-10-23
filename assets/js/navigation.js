@@ -58,6 +58,7 @@
       '<a href="' + base + 'editorial-policy.html">Editorial policy</a>' +
       '<a href="' + base + 'privacy.html">Privacy</a></div>' +
       "</div>" +
-      '<p class="small" style="margin-top:22px">DEAD TAB is a non-commercial archive at launch. Historical material belongs to its creators; our commentary and research are our own. If you hold rights to anything referenced here and want it corrected or removed, see the editorial policy page.</p></div>';
+      '<p class="small" style="margin-top:22px">DEAD TAB is a non-commercial archive at launch. Historical material belongs to its creators; our commentary and research are our own. If you hold rights to anything referenced here and want it corrected or removed, see the editorial policy page.</p>' +
+      '<p class="small" style="margin-top:14px"><a href="https://my-portfolio-khaki-gamma-94.vercel.app/about.html">Built by Aditya Pratap</a></p></div>';
   }
 })();
