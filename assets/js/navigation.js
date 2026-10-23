@@ -59,6 +59,7 @@
       '<a href="' + base + 'privacy.html">Privacy</a></div>' +
       "</div>" +
       '<p class="small" style="margin-top:22px">DEAD TAB is a non-commercial archive at launch. Historical material belongs to its creators; our commentary and research are our own. If you hold rights to anything referenced here and want it corrected or removed, see the editorial policy page.</p>' +
-      '<p class="small" style="margin-top:14px"><a href="https://adityapratapjhansi.vercel.app/about.html">Built by Aditya Pratap</a></p></div>';
+      '<p class="small" style="margin-top:14px"><a href="https://adityapratapjhansi.vercel.app/about.html">Built by Aditya Pratap</a></p>' +
+      '<p class="small" style="margin-top:8px">Also by Aditya Pratap: <a href="https://getreelforge.vercel.app">ReelForge</a> · <a href="https://portfolioforge-app.vercel.app">PortfolioForge</a> · <a href="https://ledgerlabapp.vercel.app">LedgerLab</a></p></div>';
   }
 })();
